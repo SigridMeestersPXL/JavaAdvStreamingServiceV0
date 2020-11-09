@@ -6,4 +6,5 @@ public class Account {
     private StreamingPlan streamingPlan;
     private Profile profile;
     private PaymentInfo paymentInfo;
+
 }
