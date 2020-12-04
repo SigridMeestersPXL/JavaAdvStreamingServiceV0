@@ -6,7 +6,7 @@ import be.pxl.ja.streamingservice.model.Account;
 import be.pxl.ja.streamingservice.model.CreditCardType;
 import be.pxl.ja.streamingservice.model.PaymentInfo;
 import be.pxl.ja.streamingservice.model.StreamingPlan;
-import be.pxl.ja.streamingservice.util.PasswordUtil;
+import be.pxl.ja.streamingservice.model.PasswordUtil;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXDatePicker;
 import com.jfoenix.controls.JFXProgressBar;
@@ -106,7 +106,7 @@ public class RegistrationController implements Initializable {
 
 	public void onRegister(ActionEvent actionEvent) {
 		PaymentInfo paymentInfo = new PaymentInfo();
-		paymentInfo.setCardNumer(cardnumberTextField.getText());
+		paymentInfo.setCardNumber(cardnumberTextField.getText());
 		paymentInfo.setExpirationDate(expirationDatePicker.getValue());
 		paymentInfo.setFirstName(firstnameTextField.getText());
 		paymentInfo.setLastName(lastnameTextField.getText());

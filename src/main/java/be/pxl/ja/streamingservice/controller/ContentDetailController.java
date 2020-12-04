@@ -2,13 +2,12 @@ package be.pxl.ja.streamingservice.controller;
 
 import be.pxl.ja.streamingservice.model.Content;
 import be.pxl.ja.streamingservice.model.Movie;
-import com.jfoenix.controls.JFXButton;
+import org.kordamp.ikonli.javafx.FontIcon;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import org.kordamp.ikonli.javafx.FontIcon;
 
 public class ContentDetailController {
 
